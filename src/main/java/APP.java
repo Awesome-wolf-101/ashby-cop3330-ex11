@@ -22,8 +22,8 @@ public class APP {
 
 
         double RoundTotal = Math.round((NumEurosDouble * ExchangeRateDouble) * 100.0) / 100.0;
-        //double ActualTotal = SubTotal + Tax;
-        System.out.println(NumEuros + " euros at an exchange rate of " + ExchangeRate + " is " + RoundTotal);
+        String OutputString = NumEuros + " euros at an exchange rate of " + ExchangeRate + " is \n" + RoundTotal + " U.S. dollars.";
+        System.out.println(OutputString);
 
 
 
